@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Begin navigatiesysteem */
+/* ul {
+  background: #080808;
+  padding: 10px;
+}
+ */
+ul li {
+  background: #00919b;
+  padding: 20px;
+  border: solid 1px white;
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: #C0C0C0;
+}
+/* Eind navigatie systeem */
+
+h1 {
+  color: white;
+}
+h2 {
+  color: white;
+}
+
+h3 {
+  color: black; 
+  font-size: 40px;
+}
+
+h4 {
+  color: black;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("AI.achtergrond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+/* Begin javascript Quiz */
+/* body{
+  background-color: 001e4d;
+}
+.app{
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+ */
+body{
+  background: #001e4d;
+}
+.app{
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h3{
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: 600px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.quiz{
+  padding 20px 0;
+}
+
+.quiz h4{
+  font: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn{
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transiton: all 0.3s ease;
+}
+.btn:hover{
+  background: #222;
+  color: #fff;
+}
+
+#next-btn{
+  background-color: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150;
+  border: 0;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  
+}
